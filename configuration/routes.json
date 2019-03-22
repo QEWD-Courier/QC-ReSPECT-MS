@@ -1,0 +1,27 @@
+[
+  {
+    "uri": "/api/patients/:patientId/respectforms",
+    "method": "GET",
+    "handler": "getRespectFormVersions"
+  },
+  {
+    "uri": "/api/patients/:patientId/respectforms/:sourceId/:version",
+    "method": "GET",
+    "handler": "getRespectForm"
+  },
+  {
+    "uri": "/api/patients/:patientId/respectforms",
+    "method": "POST",
+    "handler": "newRespectForm"
+  },
+  {
+    "uri": "/api/patients/:patientId/respectforms/:sourceId",
+    "method": "POST",
+    "handler": "newRespectFormVersion"
+  },
+  {
+    "uri": "/api/patients/:patientId/respectforms/:sourceId/:version",
+    "method": "PUT",
+    "handler": "editRespectFormVersion"
+  }
+]

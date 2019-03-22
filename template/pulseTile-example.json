@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "personalDetails": {
+      "nhsNumber": "9999999801",
+      "dateCompleted": "22-Mar-2019",
+      "preferredName": "Mr",
+      "firstName": "John",
+      "surname": "Doe",
+      "streetAddress": "Some address...",
+      "addressSecondLine": "Some address...",
+      "city": "London",
+      "county": "Some county...",
+      "postCode": "QWERTY1234",
+      "country": "UK",
+      "birthDate": "2019-03-05T22:00:00.000Z",
+      "status": "Completed"
+    },
+    "summaryInformation": {
+      "dateCompleted": "22-Mar-2019",
+      "summary": "Summary text...",
+      "details": "Details text...",
+      "status": "Completed"
+    },
+    "personalPreferences": {
+      "dateCompleted": "22-Mar-2019",
+      "preferencesText": "Some text...",
+      "preferencesValue": 8.9,
+      "status": "Completed"
+    },
+    "clinicalRecommendation": {
+      "clinicalSignatureFirst": "Robert Tweed",
+      "clinicalSignatureSecond": "Robert Tweed",
+      "dateCompleted": "22-Mar-2019",
+      "clinicalGuidance": "Some text...",
+      "cprValue": "2",
+      "focusValue": 11.3,
+      "status": "Completed"
+    },
+    "capacityAndRepresentation": {
+      "dateCompleted": "22-Mar-2019",
+      "capacityFirst": "2",
+      "capacitySecond": "2",
+      "status": "Completed"
+    },
+    "involvement": {
+      "dateCompleted": "22-Mar-2019",
+      "records": "Some text...",
+      "variant": "variantB",
+      "status": "Completed"
+    },
+    "clinicalSignatures": {
+      "dateCompleted":"22-Mar-2019",
+      "signaturesArray": [
+        {
+          "clinicalSignature": "Robert Tweed",
+          "designation": "qwerty",
+          "clinicialName": "qwerty",
+          "gmcNumber": "123456789",
+          "isSrc": true,
+          "dateAndTime": "2019-03-09T22:00:00.000Z"
+        },
+        {
+          "designation": "ytrewq",
+          "clinicialName": "asdfg",
+          "gmcNumber": "741852963",
+          "clinicalSignature":" Robert Tweed",
+          "dateAndTime": "2019-02-23T22:00:00.000Z"
+        }
+      ],
+      "status": "Completed"
+    },
+    "emergencyContacts": {
+      "dateCompleted": "22-Mar-2019",
+      "contactsArray": [
+        {
+          "details": "Some text...",
+          "role": "Husband",
+          "name": "John",
+          "phone": "+380663729988"
+        },
+        {
+          "role": "Father",
+          "name": "James",
+          "phone": "+38050802287",
+          "details": "Some text..."
+        }
+      ],
+      "status": "Completed"
+    },
+    "confirmation": {
+      "dateCompleted": "22-Mar-2019",
+      "confirmationsArray": [
+        {
+          "clinicalSignature": "Robert Tweed",
+          "designation": "qwerty",
+          "clinicialName": "Nick",
+          "gmcNumber": "963852741",
+          "reviewDate": "2019-03-03T22:00:00.000Z"
+        },
+        {
+          "designation": "ytgfred",
+          "clinicialName": "Carl",
+          "gmcNumber": "789321456",
+          "clinicalSignature": "Robert Tweed",
+          "reviewDate": "2019-03-04T22:00:00.000Z"
+        }
+      ],
+      "status": "Completed"
+    },
+    "emergencyView": {
+      "status": "Completed",
+      "dateCompleted": "22-Mar-2019 10:26",
+      "author": "Robert Tweed"
+    }
+  },
+  "status": "Completed",
+  "dateCompleted": "22-Mar-2019 10:26",
+  "author": "Robert Tweed"
+}
